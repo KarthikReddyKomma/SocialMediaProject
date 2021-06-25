@@ -1,0 +1,21 @@
+export default () => {
+
+    return `
+            <!DOCTYPE html>
+            <html>
+                <head>
+                    <title> Mern Backend Setup</title>
+                    <link rel="stylesheet"
+                    href="https://fonts.googleapis.com/css?family=Roboto:100,300,400">
+                    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+                    rel="stylesheet">
+                </head>
+            
+                <body>
+                    <div id = "root"></div>
+                    <h1> Hello World!!! from server backedn setup</h1>
+                    <script type = "text/javascript" src = "/dist/bundle.js"></script>
+                </body>
+            </html>
+            `
+}
