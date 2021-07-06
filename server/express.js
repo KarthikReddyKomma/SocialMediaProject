@@ -15,8 +15,6 @@ const CURRENT_WORKING_DIR = process.cwd ()
 // creating app
 const app = express ()
 
-devBundle.compile (app)
-
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 

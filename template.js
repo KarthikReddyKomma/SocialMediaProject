@@ -13,8 +13,7 @@ export default () => {
             
                 <body>
                     <div id = "root"></div>
-                    <h1> Hello World!!! from server backedn setup</h1>
-                    <script type = "text/javascript" src = "/dist/bundle.js"></script>
+                    <script type="text/javascript" src="/dist/bundle.js"></script>
                 </body>
             </html>
             `
